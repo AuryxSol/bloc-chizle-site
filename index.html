@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,15 +11,15 @@
 </head>
 <body>
 
-  <header class="hero">
-    <div class="hero-content">
-      <h1>Timeless Craft. Modern Luxury.</h1>
-      <p>Handmade pieces for intentional spaces.</p>
-      <a href="#collections" class="btn">Explore Collections</a>
-    </div>
-  </header>
+<header class="hero" data-aos="fade-in">
+  <div class="hero-content">
+    <h1>Timeless Craft. Modern Luxury.</h1>
+    <p>Handmade pieces for intentional spaces.</p>
+    <a href="#collections" class="btn">Explore Collections</a>
+  </div>
+</header>
 
-  <section class="philosophy">
+  <section class="philosophy" data-aos="fade-up">
     <div class="philosophy-inner">
       <div class="philosophy-image"></div>
       <div class="philosophy-text">
@@ -26,6 +29,15 @@
       </div>
     </div>
   </section>
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true
+  });
+</script>
 
 </body>
 </html>
@@ -49,7 +61,7 @@
     <p>Compact. Refined. Functional. Designed to elevate space with timeless minimalism.</p>
   </div>
 </section>
-<section class="carousel-gallery" id="gallery">
+<section class="carousel-gallery" data-aos="fade-left">
   <h2>Gallery Showcase</h2>
   <div class="carousel-container">
     <div class="carousel-track">
@@ -75,7 +87,7 @@
     </div>
   </div>
 </section>
-<section class="trade-zone" id="trade">
+<section class="trade-zone" data-aos="fade-right">
   <div class="trade-content">
     <h2>For Designers, Hotels & Trade Clients</h2>
     <p class="trade-intro">
@@ -98,7 +110,7 @@
     </div>
   </div>
 </section>
-<section class="lead-gen-form" id="enquire">
+<section class="lead-gen-form" data-aos="fade-up">
   <div class="form-wrapper">
     <h2>Project Enquiries & Trade Access</h2>
     <p>Let us know what you’re working on, and we’ll be in touch with tailored options.</p>
