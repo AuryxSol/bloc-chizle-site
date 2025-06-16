@@ -79,3 +79,34 @@ body {
   line-height: 1.6;
   margin-bottom: 1rem;
 }
+.collection-section {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+.collection-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 700px;
+  text-align: center;
+}
+
+.collection-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.collection-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
