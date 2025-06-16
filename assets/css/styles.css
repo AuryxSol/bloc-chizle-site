@@ -359,3 +359,36 @@ form button.btn {
 form button.btn:hover {
   background: #444;
 }
+.parallax {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Adjust paths if filenames differ */
+.pax-1 {
+  background-image: url('assets/pax shots/55eca504-0747-42bb-9b72-cb2a49136315.png');
+}
+.pax-2 {
+  background-image: url('assets/pax shots/2d4ce4f9-7ab9-49e9-8ce7-e62466341463.png');
+}
+.pax-3 {
+  background-image: url('assets/pax shots/e942bf9d-9eba-4ea5-b88c-1922f5564e58.png');
+}
+.pax-4 {
+  background-image: url('assets/pax shots/5ebee4f7-098a-444b-8aee-bbb324381a6f.png');
+}
+
+/* Optional mobile fallback: remove parallax scroll on touch devices */
+@media (pointer: coarse) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+@media (min-width: 769px) {
+  .parallax {
+    background-attachment: fixed;
+  }
+}
