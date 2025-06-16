@@ -311,3 +311,51 @@ body {
 .trade-cta .whatsapp:hover {
   background-color: #1ebe5b;
 }
+.lead-gen-form {
+  background-color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.form-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-wrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.form-wrapper p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+form button.btn {
+  background: #000;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button.btn:hover {
+  background: #444;
+}
