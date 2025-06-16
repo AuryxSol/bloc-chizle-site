@@ -45,3 +45,37 @@ body {
 .btn:hover {
   background: #444;
 }
+.philosophy {
+  padding: 4rem 2rem;
+  background-color: #f8f8f8;
+}
+
+.philosophy-inner {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.philosophy-image {
+  flex: 1 1 400px;
+  background: url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85') center center/cover no-repeat;
+  border-radius: 12px;
+  min-height: 300px;
+}
+
+.philosophy-text {
+  flex: 1 1 400px;
+}
+
+.philosophy-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.philosophy-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
