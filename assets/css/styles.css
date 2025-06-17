@@ -366,4 +366,37 @@ form button.btn:hover {
   min-height: 100vh;
   width: 100%;
 }
+.parallax {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Updated paths using renamed images */
+.pax-1 {
+  background-image: url('assets/pax shots/pax1.png');
+}
+.pax-2 {
+  background-image: url('assets/pax shots/pax2.png');
+}
+.pax-3 {
+  background-image: url('assets/pax shots/pax3.png');
+}
+.pax-4 {
+  background-image: url('assets/pax shots/pax4.png');
+}
+
+/* Optional mobile fallback for smoothness */
+@media (pointer: coarse) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+@media (min-width: 769px) {
+  .parallax {
+    background-attachment: fixed;
+  }
+}
 
