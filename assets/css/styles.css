@@ -376,16 +376,16 @@ form button.btn:hover {
 }
 
 .pax-1 {
-  background-image: url('assets/pax-shots/pax1.png');
+  background-image: url('assets/paxshots/pax1.png');
 }
 .pax-2 {
-  background-image: url('assets/pax-shots/pax2.png');
+  background-image: url('assets/paxshots/pax2.png');
 }
 .pax-3 {
-  background-image: url('assets/pax-shots/pax3.png');
+  background-image: url('assets/paxshots/pax3.png');
 }
 .pax-4 {
-  background-image: url('assets/pax-shots/pax4.png');
+  background-image: url('assets/paxshots/pax4.png');
 }
 
 @media (pointer: coarse) {
