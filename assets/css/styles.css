@@ -367,7 +367,7 @@ form button.btn:hover {
   width: 100%;
 }
 
-/* Updated paths using renamed images */
+/* Corrected paths — match your folder "pax-shots" */
 .pax-1 {
   background-image: url('assets/pax-shots/pax1.png');
 }
@@ -381,12 +381,17 @@ form button.btn:hover {
   background-image: url('assets/pax-shots/pax4.png');
 }
 
-/* Optional mobile fallback for smoothness */
 @media (pointer: coarse) {
   .parallax {
     background-attachment: scroll;
   }
 }
+@media (min-width: 769px) {
+  .parallax {
+    background-attachment: fixed;
+  }
+}
+
 @media (min-width: 769px) {
   .parallax {
     background-attachment: fixed;
